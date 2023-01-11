@@ -1,0 +1,36 @@
+# Project      : Showcase Project
+# Program Name : .env
+# Description  : Environment file for important data
+# Output       : None
+# Developers   : Addison/ Vaness/ Samuel
+###############################################################################################
+
+# API Key for data.nasdaq.com.  
+# Registered by Addison Tsang
+api_key=CTKdd3pKxHV4WVXVScr4
+
+# PATH for extract
+cpiPATH_data=../data/cpi/
+stockPATH_data=../data/stock_price/
+marketcapacityPATH_data=../data/market_capacity/
+
+# PATH for MySQL database
+cpiPATH_db=../db/cpi/
+stockPATH_db=../db/stock_price/
+marketcapacityPATH_db=../db/market_capacity/
+
+# MySQL Database
+# Use below link to connect to AWS RDS
+#mysql_host=project.cowvpada7elc.us-west-2.rds.amazonaws.com
+#mysql_host=localhost
+#mysql_user=root
+#mysql_pass=root
+#mysql_db=stock_db
+
+# PostgreSQL Database
+# Use below link to connect to AWS RDS
+postgres_host=database-1.cluster-cyten2ivdiwk.eu-west-1.rds.amazonaws.com
+#postgres_host=localhost
+postgres_user=postgres
+postgres_pass=password
+postgres_db=stock_db

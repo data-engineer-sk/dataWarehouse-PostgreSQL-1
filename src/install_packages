@@ -1,0 +1,15 @@
+# Official Nasdaq Data Link API Client for Python
+# https://pypi.org/project/Nasdaq-Data-Link/
+# pip install Nasdaq-Data-Link
+
+# Install dotenv for os module
+# pip install python-dotenv
+
+# Install mysql-connector for python
+# pip install mysql-connector-python
+
+# Install pandas 
+# pip install pandas
+
+# Install Matplotlib
+# pip install matplotlib
