@@ -19,8 +19,14 @@
 </ul>
 </p>
 <h2><span style="color:#008000;">How it works</span></h2>
- <p>This is a paragraph 2.</p>
-<h2><span style="color:#008000;">Requirement</span></h2>
- <p>This is a paragraph 3.</p>
+<p>Write a CLI program with python.  Use the API function call provided by Nasdaq.com to extract csv file.  Use packages such as  pandas / numpy to transform the data complie with the user requirement.  **Perform unit test to ensure the data are clearn to use.
+</p>
+<h2><span style="color:#008000;">System Requirement</span></h2>
+<p>This system requires the following setting:
+  <li>Python 3.10 or above</li>
+  <li>Nasdaq API (Click here https://data.nasdaq.com/tools/api )</li>
+  <li>PostgreSQL / MySQL</li>
+  <li>Any program editor (e.g. Pycharm / VS Code)</li>  
+</p>
 <h2><span style="color:#008000;">Conclusion</span></h2>
  <p>This is a paragraph 4.</p>
