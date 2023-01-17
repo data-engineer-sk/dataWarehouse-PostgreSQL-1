@@ -17,3 +17,6 @@
  <p>This is a paragraph 4.</p>
 </body>
 </html>
+
+
+![Philadelphia'sMagicGardens.Thisplacewassocool!](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/Nasdaq%20API%20-%20ETL%20Processing.png"Philadelphia'sMagicGardens")
