@@ -8,9 +8,9 @@
 </body>
 </html>
   
-<h2><span style="color:#008000;">Background</span></h2>
+<h2><span style="color:#008000;">Project Aims</span></h2>
 <p>
- Simulate a ETL pipeline process.  By using the API from Nasdaq.com, extract the histical stocks data, consumer price index, and the  market capacity for further analysis.
+ Simulate a ETL pipeline process to collect data for data analysis.  By using the API from Nasdaq.com, extract the histical stocks data, consumer price index, and the  market capacity for further analysis.
  <ul>
   <li>APPLE Inc.</li>
   <li>VISA</li>
