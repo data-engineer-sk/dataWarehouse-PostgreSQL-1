@@ -19,7 +19,7 @@
 </ul>
 </p>
 <h2><span style="color:#008000;">How it works</span></h2>
-<p>Write a CLI program with python.  Use the API function call provided by Nasdaq.com to extract csv file.  Use packages such as  pandas / numpy to transform the data complie with the user requirement.  **Perform unit test to ensure the data are clearn to use.
+<p>Write a CLI program with python.  Use the API function call provided by Nasdaq.com to extract csv file.  Use packages such as  pandas / numpy to transform the data complie with the user requirement.  Store the results to the PostgreSQL / MysQL Server which act as a data warehouse (Can be stored to RDS in AWS or local machine).  Use SQL to furthur transform the data into a new data table (**Perform unit test to ensure the data are clearn to use in future.
 </p>
 <h2><span style="color:#008000;">System Requirement</span></h2>
 <p>This system requires the following setting:
@@ -28,5 +28,4 @@
   <li>PostgreSQL / MySQL</li>
   <li>Any program editor (e.g. Pycharm / VS Code)</li>  
 </p>
-<h2><span style="color:#008000;">Conclusion</span></h2>
- <p>This is a paragraph 4.</p>
+
