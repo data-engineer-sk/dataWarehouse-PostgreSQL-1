@@ -24,7 +24,7 @@
 <h2><span style="color:#008000;">System Requirement</span></h2>
 <p>This system requires the following setting:
   <li>Python 3.10 or above</li>
-  <li>Nasdaq API (Click here https://data.nasdaq.com/tools/api )</li>
+  <li>Nasdaq API (Click <a href="https://data.nasdaq.com/tools/api">here</a> link to the website)
   <li>PostgreSQL / MySQL</li>
   <li>Any program editor (e.g. Pycharm / VS Code)</li>  
 </p>
