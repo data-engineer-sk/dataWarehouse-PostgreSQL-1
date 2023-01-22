@@ -1,4 +1,4 @@
-# ETL Pipeline (PostgreSQL Version)
+# ETL Pipeline (PostgreSQL Database)
 
 <html>
 <head></head> 
