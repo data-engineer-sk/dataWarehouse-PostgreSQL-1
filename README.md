@@ -29,3 +29,19 @@
   <Li>Tableau Public (for data visualization)</li>
   <li>Any program editor (e.g. Pycharm / VS Code)</li>  
 </p>
+<h2><span style="color:#008000;">PostgreSQL Database</span></h2>
+<p>This system requires the following setting:
+  <li>Python 3.10 or above</li>
+  <li>Nasdaq API (Click <a href="https://data.nasdaq.com/tools/api">here</a> link to the website)
+  <li>PostgreSQL / MySQL</li>
+  <Li>Tableau Public (for data visualization)</li>
+  <li>Any program editor (e.g. Pycharm / VS Code)</li>  
+</p>
+<h2><span style="color:#008000;">SQL</span></h2>
+<p>This system requires the following setting:
+  <li>Python 3.10 or above</li>
+  <li>Nasdaq API (Click <a href="https://data.nasdaq.com/tools/api">here</a> link to the website)
+  <li>PostgreSQL / MySQL</li>
+  <Li>Tableau Public (for data visualization)</li>
+  <li>Any program editor (e.g. Pycharm / VS Code)</li>  
+</p>
