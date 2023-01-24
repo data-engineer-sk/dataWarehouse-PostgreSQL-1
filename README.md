@@ -20,33 +20,19 @@ This system requires the following setting:
 - Tableau Public (for data visualization)
 - Any program editor (e.g. Pycharm / VS Code)
 
-### Program Listings
-##### Database connector
-- connect_db.py
-##### Extract data from Nasdaq.com via the API
-- nasdaq_stock_data.py 
-- nasdaq_market_capacity.py
-- nasdaq_cpi_data.py
-##### Transform data
-- transform_stock_data.py
-- transform_market_capacity.py
-- transform_cpi_data.py
-##### Load data from stock database
-- load_data.py
-
 ### ETL Processes
 Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  Use **nasdaqdatalink.ApiConfig.api_key == API_KEY** to establish the connection:
 > nasdaqdatalink.ApiConfig.api_key = API_KEY
 
-Then use the **nasdaqdatalink.get_table** function to extract historical stock data:
+Then use the **nasdaqdatalink.get_table** function to extract **historical stock data**:
 > tempData = nasdaqdatalink.get_table('WIKI/PRICES', qopts = { 'columns': ['ticker', 'date', 'open', 'high', 'low','close',
 > 'ex-dividend','split_ratio','adj_open', 'adj_high', 'adj_low', 'adj_close', 'adj_volume'] }, ticker = [stock], date = 
 > { 'gte': strDate, 'lte': endDate })
 
-Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  For example, use the **nasdaqdatalink.get_table** function to extract market capacity data:
+Use the **nasdaqdatalink.get** function to extract **market capacity data**:
 > tempData  = nasdaqdatalink.get(marketCapStock,start_date=startDate, end_date=endDate)
 
-Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  For example, use the **nasdaqdatalink.get_table** function to extract cpi data:
+Use the **nasdaqdatalink.get** function to extract **cpi data**:
 > cpiData = nasdaqdatalink.get('RATEINF/CPI_USA',start_date="2011-01-01", end_date="2014-12-31")
 
 ### PostgreSQL Data Warehouse
@@ -59,3 +45,4 @@ In this project, the transaction was done by the python scripts and the loading 
 
 ### Tableau Public for Data Visualization
 To be implemented later
+
