@@ -44,5 +44,5 @@ In this project, the transaction was done by the python scripts and the loading 
 ![Data warehouse Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/three_data_warehouse_tables.png)
 
 ### Tableau Public for Data Visualization
-![Adjusted Volume vs Date](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/Nasdaq%20API%20-%20ETL%20Processing.png)
+![Adjusted Volume vs Date](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/Adj-Vol-vs-Date.png)
 
