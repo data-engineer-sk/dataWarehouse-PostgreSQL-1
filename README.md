@@ -28,7 +28,7 @@ Extract the historical stock data, use the API which were provided by Nasdaq.com
 > { 'gte': strDate, 'lte': endDate })
 
 The extracted data will stored in the following schema:
-![Database Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/Nasdaq%20API%20-%20ETL%20Processing.png)
+![Database Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/three_data_warehouse_tables.png)
 
 ### PostgreSQL Database
 
