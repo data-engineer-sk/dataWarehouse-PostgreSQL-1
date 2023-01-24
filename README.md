@@ -29,12 +29,10 @@ Extract the historical stock data, use the API which were provided by Nasdaq.com
 
 ### PostgreSQL Data Warehouse
 The extracted data will stored in the following schema:
-![Database Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/three_data_warehouse_tables.png)
+![Database Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/stock_data_db.png)
 
 Below showing the table schema after the data transformation
 ![Data warehouse Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/three_data_warehouse_tables.png)
-
-
 
 ### SQL
 
