@@ -27,10 +27,13 @@ Extract the historical stock data, use the API which were provided by Nasdaq.com
 > 'ex-dividend','split_ratio','adj_open', 'adj_high', 'adj_low', 'adj_close', 'adj_volume'] }, ticker = [stock], date = 
 > { 'gte': strDate, 'lte': endDate })
 
+### PostgreSQL Data Warehouse
 The extracted data will stored in the following schema:
 ![Database Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/three_data_warehouse_tables.png)
 
-### PostgreSQL Database
+Below showing the table schema after the data transformation
+![Data warehouse Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/three_data_warehouse_tables.png)
+
 
 
 ### SQL
