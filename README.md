@@ -31,8 +31,8 @@
 </p>
 <h2><span style="color:#008000;">ETL Processes</span></h2>
 <p>To extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  For example, use the nasdaqdatalink.get_table function to extract data:</p>
-  <li>tempData = nasdaqdatalink.get_table('WIKI/PRICES', qopts = { 'columns': ['ticker', 'date', 'open', 'high', 'low','close','ex-dividend','split_ratio','adj_open', 'adj_high', 'adj_low', 'adj_close', 'adj_volume'] }, ticker = [stock], date = { 'gte': strDate, 'lte': endDate })</li>
-<p> to collect the data</p>
+  <li><p>tempData = nasdaqdatalink.get_table('WIKI/PRICES', qopts = { 'columns': ['ticker', 'date', 'open', 'high', 'low','close','ex-dividend','split_ratio','adj_open', 'adj_high', 'adj_low', 'adj_close', 'adj_volume'] }, ticker = [stock], date = { 'gte': strDate, 'lte': endDate })</p></li>
+
 
 <h2><span style="color:#008000;">PostgreSQL Database</span></h2>
 <p>This system requires the following setting:
