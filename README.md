@@ -45,3 +45,6 @@
   <Li>Tableau Public (for data visualization)</li>
   <li>Any program editor (e.g. Pycharm / VS Code)</li>  
 </p>
+<p>To be continue
+  <p>To finish the data visualization with Tableau Public </p>
+</p>
