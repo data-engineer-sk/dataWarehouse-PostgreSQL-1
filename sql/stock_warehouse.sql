@@ -4,7 +4,7 @@ use stock_db;
 /* data warehouse (data analysis) */
 CREATE DATABASE stock_warehouse;
 USE stock_warehouse;
-/* Tables Addison's BI analysis: BI_stocks, BI_stocks_mth, BI_cpi */
+/* Tableau analysis: BI_stocks, BI_stocks_mth, BI_cpi */
 CREATE TABLE BI_stocks SELECT stocks.ticker, stocks.txdate, stocks.open_price, stocks.day_high, stocks.day_low, stocks.close_price, stocks.ex_dividend, market_capacity.short_vol, market_capacity.total_vol
 	FROM stock_db.stocks
 	LEFT JOIN stock_db.market_capacity
