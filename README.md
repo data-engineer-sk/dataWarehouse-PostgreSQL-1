@@ -1,16 +1,28 @@
-# ETL Pipeline (PostgreSQL Database)
+# README.MD
 
-<html>
-<head></head> 
-<body data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1087.0">
-<h1><span style="color:#008000;">README.md</span></h1>
-<img src="https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/Nasdaq%20API%20-%20ETL%20Processing.png" ALIGN=”left” alt="ETL Processing via Nasdaq API" />
-</body>
-</html>
-  
+## ETL Pipeline (PostgreSQL Database)
+![ETL Process via API](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/Nasdaq%20API%20-%20ETL%20Processing.png)
+
+#### Project Aims
+Simulate a ETL pipeline process to collect data for data analysis.  By using the API from Nasdaq.com, extract the histical stocks data, consumer price index, and the  market capacity for further analysis.  The below four stocks have been chosen to be studied in this project.
+
+
+#### 3. Normalizing Data
+Below describe the area that we will normalize our data:
+>1. *Convert the timestamp data type column to data time column data type*
+>2. *Remove the sensitive data (e.g. Customer name and Card Numbers)*
+>3. *Creating the header for the data sets*
+>4. *Creating a new index in the data sets*
+>5. *Split the large single column in to multiple columns (**e.g. Basket Items (Name, Size & Price) column into Busket items, item name, item size and item price, etc**)*
+>6. *Clean the data in splited column (**e.g. Remove the empty space, repeating data and '\n', etc**)*
+
+
+
+
+
 <h2><span style="color:#008000;">Project Aims</span></h2>
 <p>
- Simulate a ETL pipeline process to collect data for data analysis.  By using the API from Nasdaq.com, extract the histical stocks data, consumer price index, and the  market capacity for further analysis.  The below four stocks have been chosen to be studied in this project.
+
  <ul>
   <li>APPLE Inc.</li>
   <li>VISA</li>
