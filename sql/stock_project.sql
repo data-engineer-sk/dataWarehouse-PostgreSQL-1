@@ -3,7 +3,7 @@ set global local_infile=on;
 Create database stock_db;
 use stock_db;
 
-/* Tables for Samuel's raw data: stocks, market_capacity, CPI */
+/* Tables for raw data: stocks, market_capacity, CPI */
 Create table stocks (
 	seq_number int UNSIGNED not null AUTO_INCREMENT,
 	ticker VARCHAR(7),
