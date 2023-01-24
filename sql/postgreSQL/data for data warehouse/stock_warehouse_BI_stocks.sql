@@ -1,3 +1,5 @@
+-- Below is the backup from MySQL DB version (20 Dec 2022, by Samuel KO) 
+--
 -- MySQL dump 10.13  Distrib 8.0.22, for macos10.15 (x86_64)
 --
 -- Host: localhost    Database: stock_warehouse
