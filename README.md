@@ -44,5 +44,6 @@ In this project, the transaction was done by the python scripts and the loading 
 ![Data warehouse Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/three_data_warehouse_tables.png)
 
 ### Tableau Public for Data Visualization
+Tableau Line Chart Display for four adjusted transaction volumn of US stocks vs Date
 ![Adjusted Volume vs Date](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/Adj-Vol-vs-Date.png)
 
