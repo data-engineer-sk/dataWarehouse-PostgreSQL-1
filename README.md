@@ -35,8 +35,10 @@ This system requires the following setting:
 - load_data.py
 
 ### ETL Processes
-Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  For example, use the **nasdaqdatalink.get_table** function to extract historical stock data:
+Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  Use **nasdaqdatalink.ApiConfig.api_key == API_KEY** to establish the connection:
+> nasdaqdatalink.ApiConfig.api_key = API_KEY
 
+Then use the **nasdaqdatalink.get_table** function to extract historical stock data:
 > tempData = nasdaqdatalink.get_table('WIKI/PRICES', qopts = { 'columns': ['ticker', 'date', 'open', 'high', 'low','close',
 > 'ex-dividend','split_ratio','adj_open', 'adj_high', 'adj_low', 'adj_close', 'adj_volume'] }, ticker = [stock], date = 
 > { 'gte': strDate, 'lte': endDate })
@@ -45,7 +47,7 @@ Extract the historical stock data, use the API which were provided by Nasdaq.com
 > tempData  = nasdaqdatalink.get(marketCapStock,start_date=startDate, end_date=endDate)
 
 Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  For example, use the **nasdaqdatalink.get_table** function to extract cpi data:
->
+> cpiData = nasdaqdatalink.get('RATEINF/CPI_USA',start_date="2011-01-01", end_date="2014-12-31")
 
 ### PostgreSQL Data Warehouse
 The extracted data will stored in the following schema:
