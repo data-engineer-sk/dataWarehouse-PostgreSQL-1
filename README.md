@@ -21,7 +21,7 @@ This system requires the following setting:
 - Any program editor (e.g. Pycharm / VS Code)
 
 ### ETL Processes
-Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  Use **nasdaqdatalink.ApiConfig.api_key == API_KEY** to establish the connection:
+Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  Use **nasdaqdatalink.ApiConfig.api_key** to establish the connection:
 > nasdaqdatalink.ApiConfig.api_key = API_KEY
 
 Then use the **nasdaqdatalink.get_table** function to extract **historical stock data**:
