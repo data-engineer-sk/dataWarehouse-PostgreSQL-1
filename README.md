@@ -42,8 +42,10 @@ Extract the historical stock data, use the API which were provided by Nasdaq.com
 > { 'gte': strDate, 'lte': endDate })
 
 Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  For example, use the **nasdaqdatalink.get_table** function to extract market capacity data:
+> tempData  = nasdaqdatalink.get(marketCapStock,start_date=startDate, end_date=endDate)
 
 Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  For example, use the **nasdaqdatalink.get_table** function to extract cpi data:
+>
 
 ### PostgreSQL Data Warehouse
 The extracted data will stored in the following schema:
