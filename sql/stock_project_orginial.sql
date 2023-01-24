@@ -3,7 +3,7 @@ Set global local_infile=on;
 Create database stock_db;
 use stock_db;
 
-/* Tables for Samuel's raw data: stocks, market_capacity, CPI */
+/* Tables for raw data: stocks, market_capacity, CPI */
 Create table stocks (
 	seq_number int UNSIGNED not null AUTO_INCREMENT,
 	ticker VARCHAR(7),
@@ -50,7 +50,7 @@ LOAD DATA LOCAL INFILE '~/Desktop/AVS-Project/db/cpi/USA_Transformed_CPI.csv' IN
 /* data warehouse (data analysis) */
 CREATE DATABASE stock_warehouse;
 USE stock_warehouse;
-/* Tables Addison's BI analysis: BI_stocks, BI_stocks_mth, BI_cpi */
+/* Tableau analysis: BI_stocks, BI_stocks_mth, BI_cpi */
 CREATE TABLE BI_stocks SELECT stocks.ticker, stocks.txdate, stocks.open_price, stocks.day_high, stocks.day_low, stocks.close_price, stocks.ex_dividend, market_capacity.short_vol, market_capacity.total_vol
 	FROM stock_db.stocks
 	LEFT JOIN stock_db.market_capacity
