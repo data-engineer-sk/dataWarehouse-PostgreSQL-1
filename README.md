@@ -20,6 +20,20 @@ This system requires the following setting:
 - Tableau Public (for data visualization)
 - Any program editor (e.g. Pycharm / VS Code)
 
+### Program Listings
+##### Database connector
+- connect_db.py
+##### Extract data from Nasdaq.com via the API
+- nasdaq_stock_data.py 
+- nasdaq_market_capacity.py
+- nasdaq_cpi_data.py
+##### Transform data
+- transform_stock_data.py
+- transform_market_capacity.py
+- transform_cpi_data.py
+##### Load data from stock database
+- load_data.py
+
 ### ETL Processes
 Extract the historical stock data, use the API which were provided by Nasdaq.com for processing.  For example, use the **nasdaqdatalink.get_table** function to extract data:
 
@@ -31,11 +45,9 @@ Extract the historical stock data, use the API which were provided by Nasdaq.com
 The extracted data will stored in the following schema:
 ![Database Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/stock_data_db.png)
 
-Below showing the table schema after the data transformation
+### Transformation and Loading
+In this project, the transaction was done by the python scripts and the loading will be done by the SQL programming.  Below showing the table schema after the data transformation and loading
 ![Data warehouse Tables Schema](https://github.com/data-engineer-sk/dataWarehouse-PostgreSQL-1/blob/main/three_data_warehouse_tables.png)
-
-### SQL
-
 
 ### Tableau Public for Data Visualization
 To be implemented later
