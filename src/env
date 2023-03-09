@@ -5,9 +5,9 @@
 # Developers   : Addison/ Vaness/ Samuel
 ###############################################################################################
 
-# API Key for data.nasdaq.com.  
-# Registered by Addison Tsang
-api_key=CTKdd3pKxHV4WVXVScr4
+# API Key for data.nasdaq.com. 
+# Registered by Samuel Ko
+api_key=@@@@@@@@@@@@@@@@@@@@4
 
 # PATH for extract
 cpiPATH_data=../data/cpi/
